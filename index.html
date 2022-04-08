@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="task.css">
+  
+  <!-- 
+  
+   -->
+  <title>Task</title>
+</head>
+<body>
+  <div class="main_div">  <!-- Main-div-->
+    <h1 class="mainh1">main div</h1>
+   
+    <div class="Second_div">  <!-- Second-div -->
+
+      <div class="Second2_div"> 
+        <div class="addtime">
+        <h2 id="Timeshow" class="addtime1"></h2> <!-- Adding Time -->
+        </div>
+      </div>
+        <div class="manintable">
+          <div class="tablesec" id="addedtasklist"></div>
+        </div>
+    </div>
+
+    <div class="third_div"> <!-- Third-div -->
+      <div class="third2_div">
+        <h3 id="Modtime" class="mdfytime"></h3><!-- Modify Time -->
+      </div>
+      <div class="thirdinput">
+        <input type="text" id="addtaskinput" class="txtinput" placeholder=" Enter your Todo">
+      </div>
+      <div class="thirdbtn">
+        <button type="button" onclick="addtaskbtn()" id="addtaskbtn" class="btnadd">Add</button>
+        <button type="button" id="savetaskbtn" style="display: none;" class="btnsave" >Save </button>
+      </div>
+      <input type="hidden" id="saveindex">
+    </div>
+  </div>
+  <script src="task.js"></script>
+</body>
+</html>
+
+
+    
+<!-- 
+<div id="addedtasklist"></div>
+  <script src="task.js"></script>  -->
